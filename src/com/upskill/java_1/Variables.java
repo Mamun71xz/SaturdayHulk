@@ -17,7 +17,7 @@ public class Variables {
  public static void main (String[] args) {
 	 ny("Kings");
 	 nj("Essex");
-	 ct(Fairfield);
+	 ct("Fairfield");
 	 Variables myobj = new Variables();
 	 System.out.println(myobj.country);
 	 System.out.println(region);
@@ -36,8 +36,13 @@ public class Variables {
 	  String mycountry = country;
 	  System.out.println(mycountry);
   }
-  public static void ct(){
+  public static void ct(String country){
 	  String city = "Hartford";
 	  System.out.println(city);
+  }
+  
+  //Git change
+  public void git(){
+  	System.out.println("Git Branching");
   }
 }
